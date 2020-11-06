@@ -1,0 +1,18 @@
+[package]
+authors = ["laizy <aochyi@126.com>"]
+description = "development library for ontology wasm contract"
+edition = "2018"
+homepage = "https://github.com/oscore/ontology-wasm-cdt-rust"
+license = "Apache-2.0/MIT"
+name = "oscore"
+repository = "https://github.com/oscore/ontology-wasm-cdt-rust"
+version = "0.1.0"
+
+[dependencies]
+wee_alloc = "0.4"
+
+[dev-dependencies]
+fastrand = "1"
+
+[features]
+std = []

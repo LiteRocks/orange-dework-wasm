@@ -1,0 +1,12 @@
+[workspace]
+members = [
+    "oscore",
+    "examples/hello",
+]
+
+[profile.release]
+panic = "abort"
+lto = true
+debug = true
+opt-level = "s"
+
