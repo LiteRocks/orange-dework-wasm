@@ -1,5 +1,5 @@
 [package]
-name = "nft"
+name = "dework"
 version = "0.1.0"
 authors = ["JasonZhou <zhoupw@gmail.com>"]
 edition = "2018"
